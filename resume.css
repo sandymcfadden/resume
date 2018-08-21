@@ -1,0 +1,103 @@
+body {
+  margin: 0 auto;
+  background-color: #CCCCCC;
+  text-align: center;
+  color: #000000;
+  }
+h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+  }
+h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  }
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  background: #FFFFFF;
+  }
+#address {
+  margin-top: 20px;
+  }
+#address h1 {
+  font-size: 24px;
+  border-bottom: 1px solid #000000;
+  width: 90%;
+  margin: 0 auto;
+  }
+#address p {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  }
+a {
+  color: #000000;
+  background: #FFFFFF;
+  text-decoration: none;
+  }
+a:hover {
+  background: #CCCCCC;
+  color: #000000;
+  }
+#skills {
+  width: 90%;
+  margin: 0 auto;
+  }
+#volunteer ul, #education ul, #experience div.work ul {
+  margin-left: 20px;
+  text-align: left;
+  }
+#experience div.work ul {
+  margin-top: 10px;
+  }
+#skills ul {
+  text-align: left;
+  margin-left: 80px;
+  }
+#experience, #education, #objective {
+  margin: 20px auto;
+  width: 90%;
+  }
+#volunteer {
+  margin: 20px auto;
+  width: 90%;
+  }
+span.strong {
+  font-weight: bold;
+  }
+#skills {
+  display: none;
+  }
+#skillsleft {
+  float: left;
+  width: 50%
+  }
+#skillsright {
+  float: right;
+  width: 50%
+  }
+div.work {
+  margin-bottom: 20px;
+  }
+span.company, span.location {
+  font-weight: bold;
+  }
+span.position, span.duration {
+  font-style: italic;
+  }
+div.left {
+  text-align: left;
+  float: left;
+  }
+div.right {
+  text-align: right;
+  float: right;
+  }
+div.clear {
+  clear: both;
+  }
+.print {
+  display: none;
+  }
