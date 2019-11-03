@@ -9,11 +9,11 @@ header h1 {
 .container {
   max-width: 900px;
 }
-
+/*
 .title {
   text-decoration: underline;
 }
-
+*/
 .info h3 {
   font-size:  14px;
   font-weight: bold;
