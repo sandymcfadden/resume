@@ -1,102 +1,137 @@
 body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 800px;
   margin: 0 auto;
-  background-color: #CCCCCC;
+  padding: 0 20px;
+}
+
+header {
+  padding: 20px;
   text-align: center;
-  color: #000000;
-  }
-h1, h2, ul, li {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  font-size: 2em;
+}
+
+header p {
   margin: 0;
-  padding: 0;
-  }
-h2 {
-  font-size: 24px;
-  }
-#wrap {
-  width: 800px;
-  margin: 0 auto;
-  border: 1px solid #fff;
-  background: #FFFFFF;
-  }
-#address {
-  margin-top: 20px;
-  }
-#address h1 {
-  font-size: 24px;
-  border-bottom: 1px solid #000000;
-  width: 90%;
-  margin: 0 auto;
-  }
-#address p {
-  padding: 0;
+  font-size: 1em;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin: 0 0 20px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.entry {
+  margin-bottom: 30px;
+}
+
+.entry:last-child {
+  margin-bottom: 0;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.entry-main h3,
+.entry-info h3 {
+  font-size: 1.2em;
   margin: 0;
-  font-size: 12px;
-  }
-a {
-  color: #000000;
-  background: #FFFFFF;
-  text-decoration: none;
-  }
-a:hover {
-  background: #CCCCCC;
-  color: #000000;
-  }
-#skills {
-  width: 90%;
-  margin: 0 auto;
-  }
-#volunteer ul, #education ul, #experience div.work ul {
-  margin-left: 20px;
-  text-align: left;
-  }
-#experience div.work ul {
-  margin-top: 10px;
-  }
-#skills ul {
-  text-align: left;
-  margin-left: 80px;
-  }
-#experience, #education, #objective {
-  margin: 20px auto;
-  width: 90%;
-  }
-#volunteer {
-  margin: 20px auto;
-  width: 90%;
-  }
-span.strong {
-  font-weight: bold;
-  }
-#skills {
-  display: none;
-  }
-#skillsleft {
-  float: left;
-  width: 50%
-  }
-#skillsright {
-  float: right;
-  width: 50%
-  }
-div.work {
-  margin-bottom: 20px;
-  }
-span.company, span.location {
-  font-weight: bold;
-  }
-span.position, span.duration {
+}
+
+.entry-main p,
+.entry-info p {
   font-style: italic;
-  }
-div.left {
-  text-align: left;
-  float: left;
-  }
-div.right {
+  margin: 5px 0 0 0;
+}
+
+.entry-info {
   text-align: right;
-  float: right;
-  }
-div.clear {
-  clear: both;
-  }
-.print {
+}
+
+.entry-description ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.entry-description ul li {
+  margin-bottom: 5px;
+}
+
+.entry-description ul li:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: 0.3s ease;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+a:hover {
+  background: #2563eb;
+  color: #fff;
+  opacity: 0.8;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: right;
+  color: #666;
+}
+
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.print-only {
   display: none;
+}
+
+@media (max-width: 620px) {
+  .entry-header {
+    flex-direction: column;
   }
+
+  .entry-info {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .entry-info h3, .entry-info p {
+    font-weight: normal;
+    font-size: 1em;
+    margin: 0;
+  }
+
+  .entry-main p {
+    margin: 0;
+  }
+}
