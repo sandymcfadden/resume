@@ -1,4 +1,6 @@
-a, hr, footer { 
+a,
+hr,
+footer {
   display: none;
 }
 
@@ -10,7 +12,11 @@ header h1 {
   font-size: 1.8em;
 }
 
-.entry {
+.entry:not(:first-of-type) {
+  page-break-inside: avoid;
+}
+
+.entry-description-section {
   page-break-inside: avoid;
 }
 
