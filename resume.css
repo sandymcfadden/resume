@@ -85,6 +85,12 @@ section h2 {
   margin-bottom: 0;
 }
 
+.entry-description h4 {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 20px 0 5px 0;
+}
+
 a {
   color: #2563eb;
   text-decoration: none;
@@ -125,7 +131,8 @@ hr {
     margin-top: 10px;
   }
 
-  .entry-info h3, .entry-info p {
+  .entry-info h3,
+  .entry-info p {
     font-weight: normal;
     font-size: 1em;
     margin: 0;
