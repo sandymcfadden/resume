@@ -16,7 +16,8 @@ header h1 {
   page-break-inside: avoid;
 }
 
-.entry-description-section {
+.entry-description-section,
+.additional-experience {
   page-break-inside: avoid;
 }
 
@@ -26,6 +27,24 @@ header h1 {
 
 .entry-info {
   text-align: right;
+}
+
+.skills-container {
+  flex-wrap: nowrap;
+}
+
+.skills-section {
+  min-width: 300px;
+}
+
+h3 {
+  page-break-before: auto;
+  page-break-after: avoid;
+}
+
+section h2 {
+  page-break-before: auto;
+  page-break-after: avoid;
 }
 
 @page {
