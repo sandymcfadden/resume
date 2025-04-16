@@ -121,6 +121,21 @@ hr {
   display: none;
 }
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.skills-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.additional-experience {
+  margin-top: 20px;
+}
+
 @media (max-width: 620px) {
   .entry-header {
     flex-direction: column;
@@ -142,19 +157,7 @@ hr {
     margin: 0;
   }
 
-}
-
-.skills-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-.skills-section {
-  flex: 1;
-  min-width: 300px;
-}
-
-.additional-experience {
-  margin-top: 20px;
+  .skills-container {
+    gap: 0;
+  }
 }
