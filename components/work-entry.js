@@ -85,8 +85,8 @@ class WorkEntry extends HTMLElement {
         /* Timeline dot */
         .timeline-dot {
           position: absolute;
-          left: -6px;
-          top: 6px;
+          left: -7px;
+          top: 7px;
           width: 12px;
           height: 12px;
           border-radius: 50%;

@@ -187,6 +187,10 @@ class ResumeApp extends HTMLElement {
           justify-self: end;
         }
 
+        mobile-menu {
+          display: none;
+        }
+
         .container {
           max-width: var(--max-width);
           margin: 0 auto;
@@ -209,18 +213,17 @@ class ResumeApp extends HTMLElement {
 
         @media (max-width: 620px) {
           .top-bar-content {
-            grid-template-columns: 1fr;
-            gap: var(--spacing-sm);
+            display: flex;
+            justify-content: center;
           }
 
-          .nav-links {
-            grid-column: 1;
-            justify-self: center;
-          }
-
+          .nav-links,
           .theme-control {
-            grid-column: 1;
-            justify-self: center;
+            display: none;
+          }
+
+          mobile-menu {
+            display: block;
           }
         }
 
@@ -233,6 +236,19 @@ class ResumeApp extends HTMLElement {
 
       <div class="top-bar" role="banner" aria-label="Site navigation">
         <div class="top-bar-content">
+          <mobile-menu>
+            <role-toggle
+              slot="role-controls"
+              current-role="${this.currentRole}"
+              software-label="${this.resumeData.roleProfiles.software.label}"
+              support-label="${this.resumeData.roleProfiles.support.label}"
+              all-label="${this.resumeData.roleProfiles.all.label}"
+            ></role-toggle>
+            <theme-toggle
+              slot="theme-control"
+              theme="${this.currentTheme}"
+            ></theme-toggle>
+          </mobile-menu>
           <div class="nav-links">
             <role-toggle
               current-role="${this.currentRole}"

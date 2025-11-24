@@ -71,14 +71,15 @@ class RoleToggle extends HTMLElement {
 
         nav {
           display: flex;
-          align-items: center;
+          flex-direction: var(--role-toggle-direction, row);
+          align-items: var(--role-toggle-align, center);
           gap: var(--spacing-md);
         }
 
         a {
           text-decoration: none;
           color: var(--color-text-muted);
-          font-size: 12px;
+          font-size: var(--role-toggle-font-size, 12px);
           font-weight: 500;
           letter-spacing: 0.5px;
           text-transform: uppercase;
@@ -86,6 +87,8 @@ class RoleToggle extends HTMLElement {
           position: relative;
           transition: color var(--transition-fast);
           cursor: pointer;
+          width: var(--role-toggle-width, auto);
+          text-align: var(--role-toggle-text-align, left);
         }
 
         a:hover {
