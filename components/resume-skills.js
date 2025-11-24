@@ -201,6 +201,10 @@ class ResumeSkills extends HTMLElement {
           .skills-section {
             min-width: 100%;
           }
+
+          .skills-section + .skills-section {
+            margin-top: var(--spacing-lg);
+          }
         }
       </style>
 

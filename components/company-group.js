@@ -6,7 +6,7 @@
  * Contains multiple position sub-entries
  */
 
-import { formatDate, formatDateRange } from '../utils/date-formatter.js';
+import { formatDateRange } from '../utils/date-formatter.js';
 
 class CompanyGroup extends HTMLElement {
   constructor() {
@@ -70,8 +70,8 @@ class CompanyGroup extends HTMLElement {
         /* Timeline dot for company */
         .timeline-dot {
           position: absolute;
-          left: -6px;
-          top: 6px;
+          left: -7px;
+          top: 7px;
           width: 12px;
           height: 12px;
           border-radius: 50%;
@@ -150,7 +150,7 @@ class CompanyGroup extends HTMLElement {
         /* Position-level timeline dot (mini timeline) */
         .position-dot {
           position: absolute;
-          left: calc(-1 * var(--spacing-md) - 5px);
+          left: calc(-1 * var(--spacing-md) - 7px);
           top: 6px;
           width: 8px;
           height: 8px;
@@ -236,6 +236,11 @@ class CompanyGroup extends HTMLElement {
           .positions {
             margin-left: 0;
             padding-left: var(--spacing-sm);
+            border-left: none;
+          }
+
+          .position-dot {
+            display: none;
           }
 
           .company-main,
