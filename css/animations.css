@@ -1,0 +1,128 @@
+/* Animation definitions */
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade out animation */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Slide in from left */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide in from right */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide in from bottom */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scale in */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Pulse effect for role change */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Utility classes for animations */
+.fade-in {
+  animation: fadeIn var(--animation-duration) ease-out;
+}
+
+.fade-out {
+  animation: fadeOut var(--animation-duration) ease-out;
+}
+
+.slide-in-left {
+  animation: slideInLeft var(--animation-duration) ease-out;
+}
+
+.slide-in-right {
+  animation: slideInRight var(--animation-duration) ease-out;
+}
+
+.slide-in-up {
+  animation: slideInUp var(--animation-duration) ease-out;
+}
+
+.scale-in {
+  animation: scaleIn var(--animation-duration) ease-out;
+}
+
+/* Transition utilities */
+.transition-all {
+  transition: all var(--transition-medium);
+}
+
+.transition-opacity {
+  transition: opacity var(--transition-medium);
+}
+
+.transition-transform {
+  transition: transform var(--transition-medium);
+}
+
+/* Disable animations if prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
