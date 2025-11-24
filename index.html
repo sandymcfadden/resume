@@ -5,268 +5,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="A senior technical support engineer with deep experience troubleshooting complex systems, supporting APIs, and providing exceptional customer service across global user bases.">
+    content="Alexander (Sandy) McFadden - Senior Software Developer and Technical Support Engineer with extensive experience building scalable applications and troubleshooting complex systems.">
   <meta name="author" content="Sandy McFadden">
 
   <title>Alexander (Sandy) McFadden's Resume</title>
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link href="resume.css" rel="stylesheet">
-  <link href="resume-print.css" rel="stylesheet" media="print">
+
+  <!-- CSS -->
+  <link href="css/variables.css" rel="stylesheet">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/animations.css" rel="stylesheet">
+  <link href="css/print.css" rel="stylesheet" media="print">
+
+  <!-- Web Components -->
+  <script type="module" src="components/resume-app.js"></script>
+  <script type="module" src="components/theme-toggle.js"></script>
+  <script type="module" src="components/resume-header.js"></script>
+  <script type="module" src="components/role-toggle.js"></script>
+  <script type="module" src="components/resume-profile.js"></script>
+  <script type="module" src="components/resume-skills.js"></script>
+  <script type="module" src="components/skill-item.js"></script>
+  <script type="module" src="components/resume-timeline.js"></script>
+  <script type="module" src="components/company-group.js"></script>
+  <script type="module" src="components/work-entry.js"></script>
+  <script type="module" src="components/education-entry.js"></script>
+  <script type="module" src="components/additional-experience.js"></script>
+  <script type="module" src="components/resume-footer.js"></script>
 </head>
 
 <body>
-  <header>
-    <h1>Alexander (Sandy) McFadden</h1>
-    <p>Kentville, NS - (902) 599-1024 - <a href="mailto:sandymc@gmail.com">sandymc@gmail.com</a> <span
-        class="print-only">sandymc@gmail.com</span> - <a href="https://sandym.ca">https://sandym.ca</a> <span
-        class="print-only">https://sandym.ca</span></p>
-  </header>
-
-  <main>
-    <section class="intro">
-      <h2>Profile</h2>
-      <p>
-        A senior technical support engineer with extensive experience troubleshooting complex systems, supporting APIs, and providing exceptional customer service to global user bases. 
-        Recognized for quickly diagnosing and resolving technical issues, creating comprehensive documentation, and building internal tools that improve support workflows. 
-        Combines deep technical knowledge with strong communication skills, systematic problem-solving, and a collaborative approach. Passionate about helping customers succeed while mentoring support teams and partnering effectively across engineering and product departments.
-      </p>
-    </section>
-
-    <section class="skills">
-      <h2>Skills</h2>
-      <div class="skills-container">
-        <div class="skills-section">
-          <h3>Technical Skills</h3>
-          <ul>
-            <li><strong>API Support &amp; Integration:</strong> REST APIs, API debugging, authentication, rate limiting, webhooks, API documentation</li>
-            <li><strong>Languages &amp; Frameworks:</strong> JavaScript, TypeScript, React, HTML, CSS, PHP, SQL, Node.js, Express.js, Python</li>
-            <li><strong>Support Tools:</strong> Zendesk, ticket triaging systems, knowledge base management, customer feedback analysis</li>
-            <li><strong>Development Tools:</strong> GitHub, Git, debugging tools, browser developer tools, API testing tools</li>
-          </ul>
-        </div>
-
-        <div class="skills-section">
-          <h3>Professional Skills</h3>
-          <ul>
-            <li>Complex technical troubleshooting and root cause analysis</li>
-            <li>API integration support and debugging</li>
-            <li>Technical documentation and knowledge base creation</li>
-            <li>Customer relationship management and escalation handling</li>
-            <li>Cross-team collaboration with engineering and product teams</li>
-            <li>Support team leadership and mentoring</li>
-            <li>Process improvement and workflow optimization</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="work-experience">
-      <h2>Work Experience</h2>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div class="entry-main">
-            <h3>Automattic</h3>
-            <p>Web Software Developer</p>
-          </div>
-          <div class="entry-info">
-            <h3>Kentville, NS</h3>
-            <p>Jan. 2021 - Apr. 2025</p>
-          </div>
-        </div>
-        <div class="entry-description">
-          <p>Worked across multiple product teams building user-facing features and internal tools that improved
-            performance, security, and customer experience.</p>
-          <div class="entry-description-section">
-            <h4>Day One - <a href="https://dayoneapp.com">https://dayoneapp.com</a> <span
-                class="print-only">https://dayoneapp.com</span></h4>
-            <p>Joined the Day One team to help build a web client to go along with the existing iOS, Mac, and Android
-              apps. Played a key role in taking a small prototype to beta to full launch. Quickly grew this to ~40K
-              monthly active users. It also laid the foundation for the recently launched Windows app.</p>
-            <ul>
-              <li>Implemented crypto library for content encryption and decryption</li>
-              <li>Designed high-performance client-side search system</li>
-              <li>Developed shared journals feature</li>
-              <li>Created Export and Import system</li>
-              <li>Implemented resilient, interruptible/resumable download mechanism for media files</li>
-            </ul>
-          </div>
-          <div class="entry-description-section">
-            <h4>Simplenote - <a href="https://app.simplenote.com">https://app.simplenote.com</a> <span
-                class="print-only">https://app.simplenote.com</span></h4>
-            <p>Full-stack development across web client, Electron desktop app, and backend (Google App Engine).</p>
-            <ul>
-              <li>Led a cross-team initiative to bring Simplenote into app store compliance by enabling in-app account
-                deletion across MacOS, iOS, and Android. Designed and implemented an API endpoint and
-                coordinated integration efforts with each client team. We successfully met the app store deadline and
-                avoiding disruption to our primary user acquisition channels.</li>
-              <li>Implemented a localization system for emails and initial welcome note ensuring 360,000 monthly active
-                users received correspondence in their preferred language.</li>
-              <li>Implemented a theme system using CSS variables</li>
-              <li>Fixed critical security issues</li>
-            </ul>
-          </div>
-          <div class="entry-description-section">
-            <h4>Support Operations Developer</h4>
-            <p>Built and maintained internal support tools to improve customer support workflows and efficiency.</p>
-            <ul>
-              <li>Designed and implemented a unified ticket triaging system for Zendesk that:
-                <ul>
-                  <li>Replaced multiple disjointed ticket processing systems with a centralized solution</li>
-                  <li>Created predictable, ordered processing rules to prevent conflicts and improve routing accuracy</li>
-                  <li>Reduced API usage by batching updates after all rules were processed</li>
-                  <li>Improved support team efficiency by ensuring all triaging tasks completed before assignment</li>
-                </ul>
-              </li>
-              <li>Maintained and enhanced internal support tools used by global support teams</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div class="entry-main">
-            <h3>Automattic</h3>
-            <p>Happiness Engineer (Technical Support Engineer / Lead)</p>
-          </div>
-          <div class="entry-info">
-            <h3>Kentville, NS</h3>
-            <p>Dec. 2014 - Jan. 2021</p>
-          </div>
-        </div>
-        <div class="entry-description">
-          <p>Delivered high-impact technical support for WordPress.com and Automattic products, excelling in complex troubleshooting, customer education, and process improvement. Consistently ranked among the top performers for support volume and quality.</p>
-          <p>Promoted to Lead in 2016, where I drove operational excellence, team development, and innovative support initiatives to elevate both customer and team outcomes.</p>
-          <ul>
-            <li>Resolved complex technical issues, including API integration, theme/plugin conflicts, and performance optimization, while maintaining high customer satisfaction</li>
-            <li>Created and maintained technical documentation, troubleshooting guides, and knowledge base articles to empower both customers and support teams</li>
-            <li>Produced an engineer interview video series to educate support teams on product features and technical nuances, improving first-contact resolution for support-heavy features</li>
-            <li>Introduced a peer/mentor paired support program to accelerate onboarding, foster knowledge sharing, and strengthen team collaboration</li>
-            <li>Helped implement scheduling and forecasting processes to optimize staffing, meet service goals, and proactively address support demand fluctuations</li>
-            <li>Led and supported a team of Happiness Engineers through feedback, coaching, and performance evaluation, with a focus on growth and high-quality support</li>
-            <li>Escalated critical issues to engineering teams with detailed reproduction steps and impact analysis, driving product improvements</li>
-            <li>Analyzed support trends to identify training needs and inform product enhancements</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div class="entry-main">
-            <h3>Acadia University</h3>
-            <p>Library Technology Specialist</p>
-          </div>
-          <div class="entry-info">
-            <h3>Wolfville, NS</h3>
-            <p>Sept. 2013 - Dec. 2014</p>
-          </div>
-        </div>
-        <div class="entry-description">
-          <ul>
-            <li>Provided technical support for the Library's automated systems including catalog, circulation, and digital resource platforms</li>
-            <li>Assisted library staff and patrons with technology troubleshooting and training</li>
-            <li>Developed and maintained custom programming solutions for library-specific needs</li>
-            <li>Created documentation and training materials for library technology systems</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div class="entry-main">
-            <h3>OurValley.ca</h3>
-            <p>Owner / Developer</p>
-          </div>
-          <div class="entry-info">
-            <h3>Kentville, NS</h3>
-            <p>Mar. 2004 - Oct. 2022</p>
-          </div>
-        </div>
-        <div class="entry-description">
-          <ul>
-            <li>Designed and developed custom web applications and websites for local businesses</li>
-            <li>Provided ongoing technical support and maintenance for client websites and applications</li>
-            <li>Troubleshot hosting, domain, and technical issues for clients</li>
-            <li>Created documentation and training materials for client content management systems</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div class="entry-main">
-            <h3>Michelin North America (Canada)</h3>
-            <p>IT Support / Developer</p>
-          </div>
-          <div class="entry-info">
-            <h3>Waterville, NS</h3>
-            <p>July, 2012 - Dec. 2012</p>
-          </div>
-        </div>
-        <div class="entry-description">
-          <ul>
-            <li>Developed and maintained the internal Intranet website used by employees for communications and reporting</li>
-            <li>Provided technical support for internal web applications and user training</li>
-            <li>Troubleshot ColdFusion application issues and database connectivity problems</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="additional-experience">
-        <h3>Additional Experience</h3>
-        <ul>
-          <li><strong>Register.com</strong> - Solutions Specialist, Yarmouth, NS (Nov. 2004 - Sept. 2005) - Provided technical support for domain registration, hosting, and web services</li>
-          <li><strong>On-Line Support Inc.</strong> - Sales &amp; Service Supervisor, Dartmouth, NS (Oct. 2003 - Sept. 2004) - Led technical support team and managed customer service operations</li>
-          <li><strong>EastLink Communications</strong> - Network Support Specialist, Halifax, NS (Nov. 2002 - Oct. 2003) - Provided network troubleshooting and technical support for telecommunications services</li>
-          <li><strong>On-Line Support Inc.</strong> - Operations Supervisor, Kentville, NS (Mar. 2000 - Nov. 2002) - Managed technical support operations and team performance</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="education">
-      <h2>Education</h2>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div class="entry-main">
-            <h3>Acadia University</h3>
-            <p>Bachelor of Computer Science</p>
-          </div>
-          <div class="entry-info">
-            <h3>Wolfville, NS</h3>
-            <p>Graduated 2010</p>
-          </div>
-        </div>
-        <div class="entry-description">
-          <ul>
-            <li>Recipient of the Director's Award for "Dedication and Efforts toward Promotion of the School and
-              Voluntary support to Fellow Students".</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div class="entry-main">
-            <h3>Nova Scotia Community College</h3>
-            <p>Electronics Engineering Technician Diploma</p>
-          </div>
-          <div class="entry-info">
-            <h3>Kentville, NS</h3>
-            <p>Graduated 2001</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr>
-
-    <footer>
-      <p>&copy; Sandy McFadden - 2025</p>
-    </footer>
-  </main>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <resume-app></resume-app>
 </body>
 
 </html>

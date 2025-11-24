@@ -1,0 +1,380 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Alexander (Sandy) McFadden",
+    "label": "Senior Software Developer / Technical Support Engineer",
+    "image": "",
+    "email": "sandymc@gmail.com",
+    "phone": "(902) 599-1024",
+    "url": "https://sandym.ca",
+    "summary": "A senior software developer and technical support engineer with extensive experience building scalable applications and troubleshooting complex systems. Recognized for quickly diagnosing and resolving technical issues, creating comprehensive documentation, and building internal tools that improve workflows. Combines deep technical knowledge with strong communication skills, systematic problem-solving, and a collaborative approach. Passionate about helping customers succeed while mentoring teams and partnering effectively across engineering and product departments.",
+    "location": {
+      "city": "Kentville",
+      "countryCode": "CA",
+      "region": "Nova Scotia"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "name": "Automattic",
+      "position": "Support Operations Developer",
+      "url": "https://automattic.com",
+      "startDate": "2024-12-01",
+      "endDate": "2025-04-01",
+      "summary": "Built internal support tools and unified ticket triaging system improving global support team efficiency.",
+      "highlights": [
+        "Built and maintained internal support tools to improve customer support workflows and efficiency",
+        "Designed and implemented a unified ticket triaging system for Zendesk that replaced multiple disjointed ticket processing systems with a centralized solution",
+        "Created predictable, ordered processing rules to prevent conflicts and improve routing accuracy",
+        "Reduced API usage by batching updates after all rules were processed",
+        "Improved support team efficiency by ensuring all triaging tasks completed before assignment",
+        "Maintained and enhanced internal support tools used by global support teams"
+      ],
+      "roleRelevance": {
+        "software": "primary",
+        "support": "primary"
+      }
+    },
+    {
+      "name": "Automattic",
+      "position": "Software Engineer - Day One",
+      "url": "https://automattic.com",
+      "productUrl": "https://dayoneapp.com",
+      "startDate": "2021-10-01",
+      "endDate": "2024-12-01",
+      "summary": "Built and launched Day One web client, growing it to ~40K monthly active users and laying foundation for Windows app.",
+      "highlights": [
+        "Joined the Day One team to help build a web client to go along with the existing iOS, Mac, and Android apps. Played a key role in taking a small prototype to beta to full launch. Quickly grew this to ~40K monthly active users. It also laid the foundation for the recently launched Windows app.",
+        "Implemented crypto library for content encryption and decryption",
+        "Designed high-performance client-side search system",
+        "Developed shared journals feature",
+        "Created Export and Import system",
+        "Implemented resilient, interruptible/resumable download mechanism for media files"
+      ],
+      "roleRelevance": {
+        "software": "primary",
+        "support": "secondary"
+      }
+    },
+    {
+      "name": "Automattic",
+      "position": "Software Engineer - Simplenote",
+      "url": "https://automattic.com",
+      "productUrl": "https://simplenote.com",
+      "startDate": "2021-01-01",
+      "endDate": "2021-10-01",
+      "summary": "Full-stack development across web, desktop, and backend for Simplenote's 360K monthly active users.",
+      "highlights": [
+        "Full-stack development across web client, Electron desktop app, and backend (Google App Engine)",
+        "Led a cross-team initiative to bring Simplenote into app store compliance by enabling in-app account deletion across MacOS, iOS, and Android. Designed and implemented an API endpoint and coordinated integration efforts with each client team. Successfully met the app store deadline, avoiding disruption to primary user acquisition channels.",
+        "Implemented a localization system for emails and initial welcome note ensuring 360,000 monthly active users received correspondence in their preferred language",
+        "Implemented a theme system using CSS variables",
+        "Fixed critical security issues"
+      ],
+      "roleRelevance": {
+        "software": "primary",
+        "support": "secondary"
+      }
+    },
+    {
+      "name": "Automattic",
+      "position": "Happiness Engineer (Technical Support Engineer / Lead)",
+      "url": "https://automattic.com",
+      "startDate": "2014-12-01",
+      "endDate": "2021-01-01",
+      "summary": "Delivered high-impact technical support for WordPress.com and Automattic products, excelling in complex troubleshooting, customer education, and process improvement. Consistently ranked among the top performers for support volume and quality. Promoted to Lead in 2016, where I drove operational excellence, team development, and innovative support initiatives to elevate both customer and team outcomes.",
+      "highlights": [
+        "Resolved complex technical issues, including API integration, theme/plugin conflicts, and performance optimization, while maintaining high customer satisfaction",
+        "Created and maintained technical documentation, troubleshooting guides, and knowledge base articles to empower both customers and support teams",
+        "Produced an engineer interview video series to educate support teams on product features and technical nuances, improving first-contact resolution for support-heavy features",
+        "Introduced a peer/mentor paired support program to accelerate onboarding, foster knowledge sharing, and strengthen team collaboration",
+        "Helped implement scheduling and forecasting processes to optimize staffing, meet service goals, and proactively address support demand fluctuations",
+        "Led and supported a team of Happiness Engineers through feedback, coaching, and performance evaluation, with a focus on growth and high-quality support",
+        "Escalated critical issues to engineering teams with detailed reproduction steps and impact analysis, driving product improvements",
+        "Analyzed support trends to identify training needs and inform product enhancements"
+      ],
+      "roleRelevance": {
+        "software": "secondary",
+        "support": "primary"
+      }
+    },
+    {
+      "name": "Acadia University",
+      "position": "Library Technology Specialist",
+      "url": "https://library.acadiau.ca",
+      "startDate": "2013-09-01",
+      "endDate": "2014-12-01",
+      "highlights": [
+        "Provided technical support for the Library's automated systems including catalog, circulation, and digital resource platforms",
+        "Assisted library staff and patrons with technology troubleshooting and training",
+        "Developed and maintained custom programming solutions for library-specific needs",
+        "Created documentation and training materials for library technology systems"
+      ],
+      "roleRelevance": {
+        "software": "secondary",
+        "support": "primary"
+      }
+    },
+    {
+      "name": "OurValley.ca",
+      "position": "Owner / Developer",
+      "startDate": "2004-03-01",
+      "endDate": "2022-10-01",
+      "highlights": [
+        "Designed and developed custom web applications and websites for local businesses",
+        "Provided ongoing technical support and maintenance for client websites and applications",
+        "Troubleshot hosting, domain, and technical issues for clients",
+        "Created documentation and training materials for client content management systems"
+      ],
+      "roleRelevance": {
+        "software": "secondary",
+        "support": "secondary"
+      }
+    },
+    {
+      "name": "Michelin North America (Canada)",
+      "position": "IT Support / Developer",
+      "startDate": "2012-07-01",
+      "endDate": "2012-12-01",
+      "highlights": [
+        "Developed and maintained the internal Intranet website used by employees for communications and reporting",
+        "Provided technical support for internal web applications and user training",
+        "Troubleshot ColdFusion application issues and database connectivity problems"
+      ],
+      "roleRelevance": {
+        "software": "secondary",
+        "support": "secondary"
+      }
+    },
+    {
+      "name": "Register.com",
+      "position": "Solutions Specialist",
+      "startDate": "2004-11-01",
+      "endDate": "2005-09-01",
+      "summary": "Provided technical support for domain registration, hosting, and web services",
+      "location": "Yarmouth, NS",
+      "roleRelevance": {
+        "software": "hidden",
+        "support": "secondary"
+      }
+    },
+    {
+      "name": "On-Line Support Inc.",
+      "position": "Sales & Service Supervisor",
+      "startDate": "2003-10-01",
+      "endDate": "2004-09-01",
+      "summary": "Led technical support team and managed customer service operations",
+      "location": "Dartmouth, NS",
+      "roleRelevance": {
+        "software": "hidden",
+        "support": "secondary"
+      }
+    },
+    {
+      "name": "EastLink Communications",
+      "position": "Network Support Specialist",
+      "startDate": "2002-11-01",
+      "endDate": "2003-10-01",
+      "summary": "Provided network troubleshooting and technical support for telecommunications services",
+      "location": "Halifax, NS",
+      "roleRelevance": {
+        "software": "hidden",
+        "support": "hidden",
+        "all": "secondary"
+      }
+    },
+    {
+      "name": "On-Line Support Inc.",
+      "position": "Operations Supervisor",
+      "startDate": "2000-03-01",
+      "endDate": "2002-11-01",
+      "summary": "Managed technical support operations and team performance",
+      "location": "Kentville, NS",
+      "roleRelevance": {
+        "software": "hidden",
+        "support": "hidden",
+        "all": "secondary"
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Acadia University",
+      "url": "https://acadiau.ca",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2006-09-01",
+      "endDate": "2010-05-01",
+      "location": "Wolfville, NS",
+      "highlights": [
+        "Recipient of the Director's Award for \"Dedication and Efforts toward Promotion of the School and Voluntary support to Fellow Students\""
+      ]
+    },
+    {
+      "institution": "Nova Scotia Community College",
+      "url": "https://nscc.ca",
+      "area": "Electronics Engineering",
+      "studyType": "Technician Diploma",
+      "startDate": "1999-09-01",
+      "endDate": "2001-05-01",
+      "location": "Kentville, NS"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages & Frameworks",
+      "level": "Advanced",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "HTML",
+        "CSS",
+        "PHP",
+        "SQL",
+        "Node.js",
+        "Express.js",
+        "Python"
+      ],
+      "roleRelevance": {
+        "software": "primary",
+        "support": "primary"
+      }
+    },
+    {
+      "name": "State Management",
+      "level": "Advanced",
+      "keywords": [
+        "Redux",
+        "MobX",
+        "React Context"
+      ],
+      "roleRelevance": {
+        "software": "primary",
+        "support": "hidden"
+      }
+    },
+    {
+      "name": "Development Tools",
+      "level": "Advanced",
+      "keywords": [
+        "GitHub",
+        "Jest",
+        "React Testing Library",
+        "Playwright",
+        "Git"
+      ],
+      "roleRelevance": {
+        "software": "primary",
+        "support": "hidden"
+      }
+    },
+    {
+      "name": "API Support & Integration",
+      "level": "Advanced",
+      "keywords": [
+        "REST APIs",
+        "API debugging",
+        "Authentication",
+        "Rate limiting",
+        "Webhooks",
+        "API documentation"
+      ],
+      "roleRelevance": {
+        "software": "hidden",
+        "support": "primary"
+      }
+    },
+    {
+      "name": "Support Tools",
+      "level": "Advanced",
+      "keywords": [
+        "Zendesk",
+        "Ticket triaging systems",
+        "Knowledge base management",
+        "Customer feedback analysis"
+      ],
+      "roleRelevance": {
+        "software": "hidden",
+        "support": "primary"
+      }
+    },
+    {
+      "name": "Development Tools - Support",
+      "level": "Advanced",
+      "keywords": [
+        "GitHub",
+        "Git",
+        "Debugging tools",
+        "Browser developer tools",
+        "API testing tools"
+      ],
+      "roleRelevance": {
+        "software": "hidden",
+        "support": "primary"
+      }
+    },
+    {
+      "name": "Professional Skills - Developer",
+      "level": "Expert",
+      "keywords": [
+        "Problem-solving and debugging complex systems",
+        "Quickly learning new technologies and tools",
+        "Technical documentation and knowledge sharing",
+        "Cross-team collaboration",
+        "Mentoring and knowledge transfer",
+        "User experience optimization"
+      ],
+      "roleRelevance": {
+        "software": "primary",
+        "support": "hidden"
+      }
+    },
+    {
+      "name": "Professional Skills - Support",
+      "level": "Expert",
+      "keywords": [
+        "Complex technical troubleshooting and root cause analysis",
+        "API integration support and debugging",
+        "Technical documentation and knowledge base creation",
+        "Customer relationship management and escalation handling",
+        "Cross-team collaboration with engineering and product teams",
+        "Support team leadership and mentoring",
+        "Process improvement and workflow optimization"
+      ],
+      "roleRelevance": {
+        "software": "hidden",
+        "support": "primary"
+      }
+    }
+  ],
+  "roleProfiles": {
+    "software": {
+      "label": "Senior Software Developer",
+      "summary": "A seasoned software developer with extensive experience building elegant, scalable solutions and user-first applications. Recognized for quickly adopting new technologies, navigating complex systems, and delivering high-quality code. Combines deep technical expertise with strong collaboration skills, mentoring capabilities, and a focus on UX optimization. Passionate about creating exceptional user experiences while fostering cross-departmental partnerships and team development.",
+      "meta": {
+        "description": "A senior software developer with deep experience building scalable applications and mentoring teams across product development."
+      }
+    },
+    "support": {
+      "label": "Technical Support Engineer",
+      "summary": "A senior technical support engineer with extensive experience troubleshooting complex systems, supporting APIs, and providing exceptional customer service to global user bases. Recognized for quickly diagnosing and resolving technical issues, creating comprehensive documentation, and building internal tools that improve support workflows. Combines deep technical knowledge with strong communication skills, systematic problem-solving, and a collaborative approach. Passionate about helping customers succeed while mentoring support teams and partnering effectively across engineering and product departments.",
+      "meta": {
+        "description": "A senior technical support engineer with deep experience troubleshooting complex systems, supporting APIs, and providing exceptional customer service across global user bases."
+      }
+    },
+    "all": {
+      "label": "Senior Software Developer / Technical Support Engineer",
+      "summary": "A senior software developer and technical support engineer with extensive experience building scalable applications and troubleshooting complex systems. Recognized for quickly diagnosing and resolving technical issues, creating comprehensive documentation, and building internal tools that improve workflows. Combines deep technical knowledge with strong communication skills, systematic problem-solving, and a collaborative approach. Passionate about helping customers succeed while mentoring teams and partnering effectively across engineering and product departments.",
+      "meta": {
+        "description": "A versatile professional combining software development expertise with deep technical support experience."
+      }
+    }
+  },
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/sandymcfadden/resume/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-11-24"
+  }
+}
