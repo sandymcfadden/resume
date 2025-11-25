@@ -88,6 +88,7 @@ class ResumeTimeline extends HTMLElement {
           font-size: var(--font-size-xl);
           margin: 0 0 var(--spacing-md) 0;
           color: var(--color-text);
+          letter-spacing: var(--letter-spacing-heading);
         }
 
         @media screen {

@@ -53,6 +53,10 @@ class ResumeHeader extends HTMLElement {
           text-align: center;
           opacity: 0;
           transform: translateY(-10px);
+          border: 1px solid var(--color-border-light);
+          border-radius: 1.5em;
+          margin-bottom: var(--spacing-lg);
+          background-color: var(--color-background-secondary);
         }
 
         header.animate-in {
@@ -81,20 +85,13 @@ class ResumeHeader extends HTMLElement {
           margin: 0 0 var(--spacing-sm) 0;
           font-size: var(--font-size-xxxl);
           color: var(--color-text);
-          letter-spacing: 0.02em;
+          letter-spacing: var(--letter-spacing-heading);
         }
 
         @media screen {
           h1 {
             font-family: var(--font-family-heading);
             border-bottom: none;
-          }
-        }
-
-        @media print {
-          h1 {
-            padding-bottom: var(--spacing-sm);
-            border-bottom: 1px solid var(--color-border);
           }
         }
 
@@ -132,10 +129,13 @@ class ResumeHeader extends HTMLElement {
           header {
             margin-top: 0;
             padding-top: 0;
+            border: 0;
           }
 
           h1 {
             font-size: 1.8em;
+            padding-bottom: var(--spacing-sm);
+            border-bottom: 1px solid var(--color-border);
           }
 
           a {
