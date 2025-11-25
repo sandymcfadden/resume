@@ -116,6 +116,13 @@ class AdditionalExperience extends HTMLElement {
         strong {
           font-weight: var(--font-weight-semibold);
         }
+
+        @media print {
+          .additional-experience {
+            opacity: 1 !important;
+            transform: none !important;
+          }
+        }
       </style>
 
       <div class="additional-experience">

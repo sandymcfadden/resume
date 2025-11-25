@@ -22,13 +22,13 @@
       "url": "https://automattic.com",
       "startDate": "2024-12-01",
       "endDate": "2025-04-01",
-      "summary": "Built internal support tools and unified ticket triaging system improving global support team efficiency.",
+      "summary": "Built and maintained internal support tools to improve customer support workflows and efficiency.",
       "highlights": [
-        "Built and maintained internal support tools to improve customer support workflows and efficiency",
-        "Designed and implemented a unified ticket triaging system for Zendesk that replaced multiple disjointed ticket processing systems with a centralized solution",
-        "Created predictable, ordered processing rules to prevent conflicts and improve routing accuracy",
-        "Reduced API usage by batching updates after all rules were processed",
-        "Improved support team efficiency by ensuring all triaging tasks completed before assignment",
+        "Designed and implemented a unified ticket triaging system for Zendesk that:",
+        " - Replaced multiple disjointed ticket processing systems with a centralized solution",
+        " - Created predictable, ordered processing rules to prevent conflicts and improve routing accuracy",
+        " - Reduced API usage by batching updates after all rules were processed",
+        " - Improved support team efficiency by ensuring all triaging tasks completed before assignment",
         "Maintained and enhanced internal support tools used by global support teams"
       ],
       "roleRelevance": {
@@ -43,9 +43,8 @@
       "productUrl": "https://dayoneapp.com",
       "startDate": "2021-10-01",
       "endDate": "2024-12-01",
-      "summary": "Built and launched Day One web client, growing it to ~40K monthly active users and laying foundation for Windows app.",
+      "summary": "Joined the Day One team to help build a web client to go along with the existing iOs, Mac, and Android apps. Played a key role in taking a small prototype to beta to full launch. Quickly grew this to ~40K monthly active users. It also laid the foundation for the recently launched Windows app.",
       "highlights": [
-        "Joined the Day One team to help build a web client to go along with the existing iOS, Mac, and Android apps. Played a key role in taking a small prototype to beta to full launch. Quickly grew this to ~40K monthly active users. It also laid the foundation for the recently launched Windows app.",
         "Implemented crypto library for content encryption and decryption",
         "Designed high-performance client-side search system",
         "Developed shared journals feature",
@@ -64,9 +63,8 @@
       "productUrl": "https://simplenote.com",
       "startDate": "2021-01-01",
       "endDate": "2021-10-01",
-      "summary": "Full-stack development across web, desktop, and backend for Simplenote's 360K monthly active users.",
+      "summary": "Full-stack development across web client, Electron desktop app, and backend (Google App Engine).",
       "highlights": [
-        "Full-stack development across web client, Electron desktop app, and backend (Google App Engine)",
         "Led a cross-team initiative to bring Simplenote into app store compliance by enabling in-app account deletion across MacOS, iOS, and Android. Designed and implemented an API endpoint and coordinated integration efforts with each client team. Successfully met the app store deadline, avoiding disruption to primary user acquisition channels.",
         "Implemented a localization system for emails and initial welcome note ensuring 360,000 monthly active users received correspondence in their preferred language",
         "Implemented a theme system using CSS variables",

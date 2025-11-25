@@ -49,6 +49,7 @@ class ResumeHeader extends HTMLElement {
 
         header {
           padding: var(--spacing-md);
+          padding-bottom: var(--spacing-lg);
           text-align: center;
           opacity: 0;
           transform: translateY(-10px);
@@ -78,15 +79,29 @@ class ResumeHeader extends HTMLElement {
 
         h1 {
           margin: 0 0 var(--spacing-sm) 0;
-          padding-bottom: var(--spacing-sm);
-          border-bottom: 1px solid var(--color-border);
-          font-size: var(--font-size-xxl);
+          font-size: var(--font-size-xxxl);
           color: var(--color-text);
+          letter-spacing: 0.02em;
+        }
+
+        @media screen {
+          h1 {
+            font-family: var(--font-family-heading);
+            border-bottom: none;
+          }
+        }
+
+        @media print {
+          h1 {
+            padding-bottom: var(--spacing-sm);
+            border-bottom: 1px solid var(--color-border);
+          }
         }
 
         .contact-info {
           margin: 0;
-          font-size: var(--font-size-base);
+          font-size: var(--font-size-sm);
+          font-weight: var(--font-weight-light);
           color: var(--color-text);
         }
 

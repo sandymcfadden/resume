@@ -101,9 +101,20 @@ class ResumeProfile extends HTMLElement {
         h2 {
           font-size: var(--font-size-xl);
           margin: 0 0 var(--spacing-md) 0;
-          padding-bottom: var(--spacing-xs);
-          border-bottom: 1px solid var(--color-border);
           color: var(--color-text);
+        }
+
+        @media screen {
+          h2 {
+            font-family: var(--font-family-heading);
+          }
+        }
+
+        @media print {
+          h2 {
+            padding-bottom: var(--spacing-xs);
+            border-bottom: 1px solid var(--color-border);
+          }
         }
 
         .profile-content {
