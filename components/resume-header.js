@@ -95,6 +95,12 @@ class ResumeHeader extends HTMLElement {
           }
         }
 
+        @media (max-width: 620px) {
+          h1 {
+            font-size: var(--font-size-xxl);
+          }
+        }
+
         .contact-info {
           margin: 0;
           font-size: var(--font-size-sm);

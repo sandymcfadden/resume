@@ -39,6 +39,19 @@ class MobileMenu extends HTMLElement {
     drawer?.addEventListener('click', (e) => {
       e.stopPropagation();
     });
+
+    // Close menu when role or theme changes
+    this.addEventListener('role-change', () => {
+      if (this.isOpen) {
+        this.closeMenu();
+      }
+    });
+
+    this.addEventListener('theme-change', () => {
+      if (this.isOpen) {
+        this.closeMenu();
+      }
+    });
   }
 
   openMenu() {
