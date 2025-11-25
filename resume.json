@@ -24,12 +24,12 @@
       "endDate": "2025-04-01",
       "summary": "Built and maintained internal support tools to improve customer support workflows and efficiency.",
       "highlights": [
+        "Maintained and enhanced internal support tools used by global support teams",
         "Designed and implemented a unified ticket triaging system for Zendesk that:",
-        " - Replaced multiple disjointed ticket processing systems with a centralized solution",
-        " - Created predictable, ordered processing rules to prevent conflicts and improve routing accuracy",
-        " - Reduced API usage by batching updates after all rules were processed",
-        " - Improved support team efficiency by ensuring all triaging tasks completed before assignment",
-        "Maintained and enhanced internal support tools used by global support teams"
+        "Replaced multiple disjointed ticket processing systems with a centralized solution",
+        "Created predictable, ordered processing rules to prevent conflicts and improve routing accuracy",
+        "Reduced API usage by batching updates after all rules were processed",
+        "Improved support team efficiency by ensuring all triaging tasks completed before assignment"
       ],
       "roleRelevance": {
         "software": "primary",
