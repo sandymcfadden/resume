@@ -11,8 +11,11 @@ This resume site allows me to maintain a single source of data while presenting 
 - **Role-Based Filtering**: Switch between Software Engineer, Technical Support Engineer, or Full Resume views
 - **Theme Toggle**: Light and dark mode support with system preference detection
 - **Company Grouping**: Multiple positions at the same company are visually grouped with a mini-timeline
-- **Responsive Design**: Optimized for screen and print
+- **Recommendations Section**: Masonry layout showcasing testimonials with profile images and scroll animations
+- **Profile Images**: Header and recommendation cards feature overlapping circular profile images
+- **Responsive Design**: Optimized for screen and print, with mobile-friendly navigation
 - **Accessibility**: Keyboard navigation, screen reader support, and reduced motion preferences
+- **Social Media Integration**: Open Graph and Twitter Card meta tags for rich link previews
 
 ## Architecture
 
@@ -21,19 +24,26 @@ This resume site allows me to maintain a single source of data while presenting 
   - `roleRelevance`: Controls visibility per role (primary/secondary/hidden)
   - `roleProfiles`: Role-specific summaries and labels
   - `productUrl`: Optional product links for grouped positions
+  - `references`: Recommendations with profile images (uses standard JSON Resume field)
 
 ### Components
 Built with vanilla Web Components (Custom Elements):
 
 - **resume-app.js**: Main application orchestrating data loading and role state
+- **resume-header.js**: Header with name, contact info, and profile image
+- **resume-profile.js**: Profile summary section with role-based content
 - **role-toggle.js**: Role switching controls with URL persistence
 - **theme-toggle.js**: Light/dark theme toggle with localStorage
+- **mobile-menu.js**: Mobile navigation drawer with role and theme controls
 - **company-group.js**: Groups consecutive positions at the same company
 - **work-entry.js**: Individual work experience entries
 - **education-entry.js**: Education history entries
 - **resume-skills.js**: Skills section with role-based filtering
 - **resume-timeline.js**: Timeline container with scroll animations
 - **additional-experience.js**: Condensed list of secondary experiences
+- **recommendations-section.js**: Masonry layout container for recommendations
+- **recommendation-card.js**: Individual recommendation cards with profile images and scroll animations
+- **resume-footer.js**: Footer component
 
 ### Utilities
 - **utils/date-formatter.js**: Timezone-safe date formatting functions

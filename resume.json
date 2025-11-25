@@ -3,7 +3,7 @@
   "basics": {
     "name": "Alexander (Sandy) McFadden",
     "label": "Senior Software Developer / Technical Support Engineer",
-    "image": "",
+    "image": "./images/sandy-mcfadden.jpg",
     "email": "sandymc@gmail.com",
     "phone": "(902) 599-1024",
     "url": "https://sandym.ca",
@@ -370,9 +370,51 @@
       }
     }
   },
+  "references": [
+    {
+      "name": "Natalia Vidal",
+      "image": "./images/natalia-vidal.jpeg",
+      "reference": "I've worked with Sandy for over 2 years at Day One and he was someone I always relied on. He was instrumental in launching the Web app.\n\nSandy has a real talent for taking complex problems and working through them in a thoughtful, step-by-step way. He's especially good at structuring work so that we can ship value early and continue to improve incrementally, a huge asset in our fast-moving team.\n\nHe's incredibly dependable when it comes to breaking things down, prioritizing well, and delivering high-quality work. He brings a calm, focused presence to the work and keeps things moving even when problems get messy.\n\nSandy is also a generous and thoughtful teammate and is always happy to talk through a challenge or help someone get unstuck. He thrives in async and remote environments, works well independently, and consistently makes smart decisions about where to invest his time and energy.\n\nHe's a strong contributor you can trust to do great work with minimal supervision and make the whole team better in the process. Any team would be lucky to have Sandy."
+    },
+    {
+      "name": "Andrea Bagley",
+      "image": "./images/andrea-bagley.jpeg",
+      "reference": "I trust Sandy completely. Our working relationship spans a decade, and I can confidently say he is one of the best humans I know. He jumps in to help, no matter the task. He solves problems with care and thoughtfulness. Sandy quickly learns complex systems and delivers high-quality work that helps customers and colleagues. He teaches others generously and makes everyone feel safe when working with him.\n\nSandy combines technical skill with genuine kindness. Sandy's joy for software development shows in his careful consideration when solving problems via code. He cares deeply about customers, coworkers, and shipping scalable solutions. I cannot say enough about his positive attitude and helpfulness.\n\nI want Sandy on any team I lead or am on. I know I can count on him. I recommend him without hesitation."
+    },
+    {
+      "name": "Jackson (Murphy) Randle",
+      "image": "./images/jackson-randle.jpeg",
+      "reference": "Sandy is a strong engineer whose capabilities outpace his experience. While I was Sandy's lead I felt like I could throw any task at him and trust him to figure it out and come up with a good solution quickly. Most recently I was impressed that I was able to give a general outline for a resilient, interruptible/resumable download mechanism for heavy media files on our web app, and Sandy came back to me having understood it, and with a functional implementation and test suite. He asks questions when things aren't clear, and gets creative when he meets roadblocks. He handled the encryption code on our web app, some of the more arcane parts of our architecture, even as a newer engineer at the time. I _highly_ recommend Sandy.\n\nI loved working with Sandy and I'm very impressed with his abilities as a problem solver and a programmer. If I were working on getting something new off the ground, I'd be interested in Sandy for his scrappiness, grit, and speed of work."
+    },
+    {
+      "name": "Gracie Ofslager",
+      "image": "./images/gracie-ofslager.jpeg",
+      "reference": "Sandy solves engineering problems with elegant solutions. When asked for help, he executes quickly and thinks about the problem on a broader scale to offer a better user experience than what originally asked to do.\n\nHe brings thoughtfulness and care to everything he touches. It's easy to see the quality of his code and speed with which he ships projects. What I want to emphasize is the depth of care he brings to the problem solving, execution, and people with whom he collaborates. He's such a joy to work with."
+    },
+    {
+      "name": "Kris Karkoski",
+      "image": "./images/kris-karkoski.jpeg",
+      "reference": "I had the privilege of working with Sandy for nearly a decade at Automattic, first in front-line support then years later supporting them on our Happiness Operations team.\n\nSandy's experience in customer support allowed him to thoughtfully engineer solutions with an eye towards our users. Despite only having a few weeks of overlap with another developer, Sandy quickly shipped impactful code from new improvements to refactoring of legacy systems powering the support experience across our products.\n\nDespite his short time on the operations team, his improvements will serve us for years to come. I strongly recommend Sandy."
+    },
+    {
+      "name": "Kristen Zuck",
+      "image": "./images/kristen-zuck.jpeg",
+      "reference": "I've known Sandy since we both started at Automattic together back in 2014 and you could not find a better, more hardworking employee or colleague to have on your team. If you are hiring please check out his profile!"
+    },
+    {
+      "name": "Samuel Seay",
+      "image": "./images/samuel-seay.jpeg",
+      "reference": "Sandy is a fantastic dev and one of the fastest learners/problem solvers I've worked with."
+    },
+    {
+      "name": "Brandon Payton",
+      "image": "./images/brandon-payton.jpeg",
+      "reference": "I recently transferred maintenance of a software project to Sandy and was thrilled that he was the one taking over -- a kind, smart, and conscientious developer."
+    }
+  ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/sandymcfadden/resume/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-11-24"
+    "lastModified": "2025-11-25"
   }
 }
