@@ -23,14 +23,8 @@ class ResumeFooter extends HTMLElement {
           display: block;
         }
 
-        hr {
-          margin: var(--spacing-lg) 0;
-          border: none;
-          border-top: 1px solid var(--color-border-light);
-        }
-
         footer {
-          margin-top: var(--spacing-lg);
+          margin-top: var(--spacing-md);
           text-align: right;
           color: var(--color-text-muted);
         }
@@ -47,7 +41,6 @@ class ResumeFooter extends HTMLElement {
         }
       </style>
 
-      <hr>
       <footer>
         <p>&copy; Sandy McFadden - ${currentYear}</p>
       </footer>

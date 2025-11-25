@@ -197,18 +197,28 @@ class ResumeApp extends HTMLElement {
           padding: 0 var(--spacing-md);
         }
 
-        .header-container {
+        /* Full-width section wrappers */
+        .section-wrapper {
+          width: 100%;
+          padding: var(--spacing-xl) 0;
+        }
+
+        .section-wrapper.primary {
+          background-color: var(--color-background);
+        }
+
+        .section-wrapper.secondary {
+          background-color: var(--color-background-secondary);
+        }
+
+        .section-content {
           max-width: var(--max-width);
-          margin: var(--spacing-lg) auto var(--spacing-sm) auto;
+          margin: 0 auto;
           padding: 0 var(--spacing-md);
         }
 
         main {
-          padding-bottom: var(--spacing-lg);
-        }
-
-        section {
-          margin-bottom: var(--spacing-lg);
+          padding: 0;
         }
 
         @media (max-width: 620px) {
@@ -230,6 +240,15 @@ class ResumeApp extends HTMLElement {
         @media print {
           .top-bar {
             display: none;
+          }
+
+          .section-wrapper {
+            background: none !important;
+            padding: 0 !important;
+          }
+
+          .section-content {
+            padding: 0 !important;
           }
         }
       </style>
@@ -263,44 +282,57 @@ class ResumeApp extends HTMLElement {
         </div>
       </div>
 
-      <div class="header-container">
-        <resume-header
-          name="${this.resumeData.basics.name}"
-          email="${this.resumeData.basics.email}"
-          phone="${this.resumeData.basics.phone}"
-          url="${this.resumeData.basics.url}"
-          location="${this.resumeData.basics.location.city}, ${this.resumeData.basics.location.region}"
-        ></resume-header>
-      </div>
+      <main id="main-content">
+        <!-- Header + Profile Section (Primary) -->
+        <div class="section-wrapper primary">
+          <div class="section-content">
+            <resume-header
+              name="${this.resumeData.basics.name}"
+              email="${this.resumeData.basics.email}"
+              phone="${this.resumeData.basics.phone}"
+              url="${this.resumeData.basics.url}"
+              location="${this.resumeData.basics.location.city}, ${this.resumeData.basics.location.region}"
+            ></resume-header>
+            <resume-profile
+              summary="${roleProfile ? roleProfile.summary : this.resumeData.basics.summary}"
+            ></resume-profile>
+          </div>
+        </div>
 
-      <main id="main-content" class="container">
-        <section>
-          <resume-profile
-            summary="${roleProfile ? roleProfile.summary : this.resumeData.basics.summary}"
-          ></resume-profile>
-        </section>
+        <!-- Skills Section (Secondary) -->
+        <div class="section-wrapper secondary">
+          <div class="section-content">
+            <resume-skills
+              skills='${JSON.stringify(this.resumeData.skills)}'
+              current-role="${this.currentRole}"
+            ></resume-skills>
+          </div>
+        </div>
 
-        <section>
-          <resume-skills
-            skills='${JSON.stringify(this.resumeData.skills)}'
-            current-role="${this.currentRole}"
-          ></resume-skills>
-        </section>
+        <!-- Work Experience Section (Primary) -->
+        <div class="section-wrapper primary">
+          <div class="section-content">
+            <resume-timeline type="work">
+              ${this.renderMainWorkEntries()}
+            </resume-timeline>
+            ${this.renderAdditionalExperience()}
+          </div>
+        </div>
 
-        <section>
-          <resume-timeline type="work">
-            ${this.renderMainWorkEntries()}
-          </resume-timeline>
-          ${this.renderAdditionalExperience()}
-        </section>
+        <!-- Education Section (Secondary) -->
+        <div class="section-wrapper secondary">
+          <div class="section-content">
+            <resume-timeline type="education">
+              ${this.renderEducationEntries()}
+            </resume-timeline>
+          </div>
+        </div>
 
-        <section>
-          <resume-timeline type="education">
-            ${this.renderEducationEntries()}
-          </resume-timeline>
-        </section>
-
-        <resume-footer></resume-footer>
+        <div class="section-wrapper primary">
+          <div class="section-content">
+            <resume-footer></resume-footer>
+          </div>
+        </div>
       </main>
     `;
   }
