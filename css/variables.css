@@ -1,3 +1,12 @@
+/* Custom Fonts */
+@font-face {
+  font-family: 'Forevs';
+  src: url('../css/ForevsDemo-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* Colors - Light theme */
   --color-background: #ffffff;
@@ -21,7 +30,7 @@
 
   /* Typography */
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-family-heading: Georgia, "Times New Roman", serif;
+  --font-family-heading: 'Forevs', Georgia, "Times New Roman", serif;
   --font-size-base: 1em;
   --font-size-sm: 0.875em;
   --font-size-lg: 1.2em;
@@ -33,6 +42,7 @@
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
   --font-weight-light: 300;
+  --letter-spacing-heading: 0.1em;
 
   /* Layout */
   --max-width: 800px;
