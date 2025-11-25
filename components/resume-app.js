@@ -187,10 +187,6 @@ class ResumeApp extends HTMLElement {
           justify-self: end;
         }
 
-        mobile-menu {
-          display: none;
-        }
-
         .container {
           max-width: var(--max-width);
           margin: 0 auto;
