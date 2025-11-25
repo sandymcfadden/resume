@@ -210,7 +210,7 @@ class ResumeApp extends HTMLElement {
         .section-content {
           max-width: var(--max-width);
           margin: 0 auto;
-          padding: 0 var(--spacing-md);
+          padding: 0 var(--spacing-lg);
         }
 
         main {
