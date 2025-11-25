@@ -74,9 +74,12 @@ class RecommendationCard extends HTMLElement {
           margin-top: 50px;
           transition: background-color var(--transition-medium), border-color var(--transition-medium);
           position: relative;
-          height: 100%;
-          display: flex;
-          flex-direction: column;
+        }
+        
+        @media (max-width: 768px) {
+          .card {
+            margin-bottom: calc(2 * var(--spacing-lg));
+          }
         }
 
         .profile-image {
