@@ -288,6 +288,7 @@ class ResumeApp extends HTMLElement {
               phone="${this.resumeData.basics.phone}"
               url="${this.resumeData.basics.url}"
               location="${this.resumeData.basics.location.city}, ${this.resumeData.basics.location.region}"
+              image="${this.resumeData.basics.image || ''}"
             ></resume-header>
             <resume-profile
               summary="${roleProfile ? roleProfile.summary : this.resumeData.basics.summary}"
@@ -324,7 +325,10 @@ class ResumeApp extends HTMLElement {
           </div>
         </div>
 
-        <div class="section-wrapper primary">
+        <!-- Recommendations Section (Primary) -->
+        ${this.renderRecommendationsSection()}
+
+        <div class="section-wrapper secondary">
           <div class="section-content">
             <resume-footer></resume-footer>
           </div>
@@ -443,6 +447,22 @@ class ResumeApp extends HTMLElement {
         ></education-entry>
       `)
       .join('');
+  }
+
+  renderRecommendationsSection() {
+    if (!this.resumeData.references || this.resumeData.references.length === 0) {
+      return '';
+    }
+
+    return `
+      <div class="section-wrapper primary">
+        <div class="section-content">
+          <recommendations-section
+            recommendations='${JSON.stringify(this.resumeData.references).replace(/'/g, '&apos;')}'
+          ></recommendations-section>
+        </div>
+      </div>
+    `;
   }
 }
 
