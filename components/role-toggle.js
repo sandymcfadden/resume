@@ -108,8 +108,8 @@ class RoleToggle extends HTMLElement {
           content: '';
           position: absolute;
           bottom: 0;
-          left: 50%;
-          transform: translateX(-50%);
+          left: var(--role-toggle-underline-left, 50%);
+          transform: var(--role-toggle-underline-transform, translateX(-50%));
           width: 20px;
           height: 1px;
           background-color: var(--color-accent);

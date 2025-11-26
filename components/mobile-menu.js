@@ -59,9 +59,12 @@ class MobileMenu extends HTMLElement {
     this.previousFocus = document.activeElement;
 
     const overlay = this.shadowRoot.querySelector('.overlay');
+    const drawer = this.shadowRoot.querySelector('.drawer');
     const closeButton = this.shadowRoot.querySelector('.close-button');
 
     overlay?.classList.add('open');
+    drawer?.removeAttribute('inert');
+    drawer?.setAttribute('aria-hidden', 'false');
     closeButton?.focus();
 
     // Prevent body scroll
@@ -72,7 +75,11 @@ class MobileMenu extends HTMLElement {
     this.isOpen = false;
 
     const overlay = this.shadowRoot.querySelector('.overlay');
+    const drawer = this.shadowRoot.querySelector('.drawer');
+
     overlay?.classList.remove('open');
+    drawer?.setAttribute('inert', '');
+    drawer?.setAttribute('aria-hidden', 'true');
 
     // Restore focus
     if (this.previousFocus) {
@@ -175,12 +182,12 @@ class MobileMenu extends HTMLElement {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: var(--spacing-md);
-          border-bottom: 1px solid var(--color-border);
+          padding: var(--spacing-sm) var(--spacing-md);
+          border-bottom: 1px solid var(--color-border-light);
         }
 
         .drawer-title {
-          font-size: var(--font-size-lg);
+          font-size: var(--font-size-base);
           font-weight: var(--font-weight-semibold);
           color: var(--color-text);
           margin: 0;
@@ -234,6 +241,8 @@ class MobileMenu extends HTMLElement {
           --role-toggle-font-size: var(--font-size-base);
           --role-toggle-width: 100%;
           --role-toggle-text-align: left;
+          --role-toggle-underline-left: var(--spacing-sm);
+          --role-toggle-underline-transform: none;
         }
 
         /* Style the slotted theme-toggle */
@@ -265,7 +274,7 @@ class MobileMenu extends HTMLElement {
       </button>
 
       <div class="overlay" role="dialog" aria-modal="true" aria-label="Navigation menu">
-        <div class="drawer">
+        <div class="drawer" inert aria-hidden="true">
           <div class="drawer-header">
             <h2 class="drawer-title">Menu</h2>
             <button
