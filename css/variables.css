@@ -86,13 +86,6 @@
   }
 }
 
-/* Respect prefers-color-scheme for users without saved preference */
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme]) {
-    /* Light theme variables already set as default */
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
     --color-background: #1a1a1a;

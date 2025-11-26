@@ -79,6 +79,12 @@ class RecommendationsSection extends HTMLElement {
           position: relative;
         }
 
+        @media (max-width: 768px) {
+          .recommendations-list {
+            padding-top: var(--spacing-sm);
+          }
+        }
+
         recommendation-card {
           width: 100%;
           box-sizing: border-box;
