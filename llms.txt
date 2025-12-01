@@ -6,7 +6,7 @@ This is the professional resume website for Alexander (Sandy) McFadden, a Senior
 
 All resume details, work experience, skills, education, and recommendations can be found in the structured data file:
 
-- **resume.json** - Complete resume data in JSON Resume format
+- [resume.json](resume.json) - Complete resume data in JSON Resume format
 
 This file contains comprehensive information about:
 - Professional experience and work history
@@ -16,4 +16,4 @@ This file contains comprehensive information about:
 - Contact information
 - Role-specific profiles (Software Engineer and Technical Support Engineer)
 
-Please refer to resume.json for accurate, structured information about Sandy McFadden's professional background.
+Please refer to [resume.json](resume.json) for accurate, structured information about Sandy McFadden's professional background.
