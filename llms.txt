@@ -1,0 +1,19 @@
+# Alexander (Sandy) McFadden's Resume
+
+This is the professional resume website for Alexander (Sandy) McFadden, a Senior Software Developer and Technical Support Engineer.
+
+## For AI/LLM Agents
+
+All resume details, work experience, skills, education, and recommendations can be found in the structured data file:
+
+- **resume.json** - Complete resume data in JSON Resume format
+
+This file contains comprehensive information about:
+- Professional experience and work history
+- Technical skills and competencies
+- Education and certifications
+- Professional recommendations
+- Contact information
+- Role-specific profiles (Software Engineer and Technical Support Engineer)
+
+Please refer to resume.json for accurate, structured information about Sandy McFadden's professional background.

@@ -248,7 +248,6 @@ class ResumeApp extends HTMLElement {
           }
         }
       </style>
-
       <div class="top-bar" role="banner" aria-label="Site navigation">
         <div class="top-bar-content">
           <mobile-menu>
@@ -278,7 +277,7 @@ class ResumeApp extends HTMLElement {
         </div>
       </div>
 
-      <main id="main-content">
+      <main>
         <!-- Header + Profile Section (Primary) -->
         <div class="section-wrapper primary">
           <div class="section-content">
