@@ -128,6 +128,7 @@ class ResumeHeader extends HTMLElement {
         a {
           color: var(--color-accent);
           text-decoration: none;
+          font-weight: var(--font-weight-semibold);
           transition: background-color var(--transition-medium), color var(--transition-medium);
           padding: 2px 4px;
           border-radius: var(--border-radius-sm);
