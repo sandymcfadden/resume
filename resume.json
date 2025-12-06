@@ -22,6 +22,7 @@
       "url": "https://automattic.com",
       "startDate": "2024-12-01",
       "endDate": "2025-04-01",
+      "location": "Remote",
       "summary": "Built and maintained internal support tools to improve customer support workflows and efficiency.",
       "highlights": [
         "Maintained and enhanced internal support tools used by global support teams",
@@ -43,6 +44,7 @@
       "productUrl": "https://dayoneapp.com",
       "startDate": "2021-10-01",
       "endDate": "2024-12-01",
+      "location": "Remote",
       "summary": "Joined the Day One team to help build a web client to go along with the existing iOs, Mac, and Android apps. Played a key role in taking a small prototype to beta to full launch. Quickly grew this to ~40K monthly active users. It also laid the foundation for the recently launched Windows app.",
       "highlights": [
         "Implemented crypto library for content encryption and decryption",
@@ -63,6 +65,7 @@
       "productUrl": "https://simplenote.com",
       "startDate": "2021-01-01",
       "endDate": "2021-10-01",
+      "location": "Remote",
       "summary": "Full-stack development across web client, Electron desktop app, and backend (Google App Engine).",
       "highlights": [
         "Led a cross-team initiative to bring Simplenote into app store compliance by enabling in-app account deletion across MacOS, iOS, and Android. Designed and implemented an API endpoint and coordinated integration efforts with each client team. Successfully met the app store deadline, avoiding disruption to primary user acquisition channels.",
@@ -82,6 +85,7 @@
       "startDate": "2014-12-01",
       "endDate": "2021-01-01",
       "summary": "Delivered high-impact technical support for WordPress.com and Automattic products, excelling in complex troubleshooting, customer education, and process improvement. Consistently ranked among the top performers for support volume and quality. Promoted to Lead in 2016, where I drove operational excellence, team development, and innovative support initiatives to elevate both customer and team outcomes.",
+      "location": "Remote",
       "highlights": [
         "Resolved complex technical issues, including API integration, theme/plugin conflicts, and performance optimization, while maintaining high customer satisfaction",
         "Created and maintained technical documentation, troubleshooting guides, and knowledge base articles to empower both customers and support teams",
@@ -103,6 +107,7 @@
       "url": "https://library.acadiau.ca",
       "startDate": "2013-09-01",
       "endDate": "2014-12-01",
+      "location": "Wolfville, NS",
       "highlights": [
         "Provided technical support for the Library's automated systems including catalog, circulation, and digital resource platforms",
         "Assisted library staff and patrons with technology troubleshooting and training",
@@ -119,6 +124,7 @@
       "position": "Owner / Developer",
       "startDate": "2004-03-01",
       "endDate": "2022-10-01",
+      "location": "Kentville, NS",
       "highlights": [
         "Designed and developed custom web applications and websites for local businesses",
         "Provided ongoing technical support and maintenance for client websites and applications",
@@ -135,6 +141,7 @@
       "position": "IT Support / Developer",
       "startDate": "2012-07-01",
       "endDate": "2012-12-01",
+      "location": "Waterville, NS",
       "highlights": [
         "Developed and maintained the internal Intranet website used by employees for communications and reporting",
         "Provided technical support for internal web applications and user training",

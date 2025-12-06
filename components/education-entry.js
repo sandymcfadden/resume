@@ -99,11 +99,17 @@ class EducationEntry extends HTMLElement {
           gap: var(--spacing-md);
         }
 
-        .entry-main h3,
-        .entry-info h3 {
+        .entry-main h3 {
           font-size: var(--font-size-lg);
           margin: 0;
           color: var(--color-text);
+        }
+
+        .entry-info h3 {
+          margin: 0;
+          font-weight: var(--font-weight-normal);
+          color: var(--color-text);
+          font-size: var(--font-size-base);
         }
 
         .entry-main p,

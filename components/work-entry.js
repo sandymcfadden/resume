@@ -129,12 +129,18 @@ class WorkEntry extends HTMLElement {
           gap: var(--spacing-md);
         }
 
-        .entry-main h3,
-        .entry-info h3 {
+        .entry-main h3 {
           font-size: var(--font-size-lg);
           margin: 0;
           color: var(--color-text);
           font-weight: ${isPrimary ? 'var(--font-weight-bold)' : 'var(--font-weight-semibold)'};
+        }
+
+        .entry-info h3 {
+          margin: 0;
+          font-weight: var(--font-weight-normal);
+          color: var(--color-text);
+          font-size: var(--font-size-base);
         }
 
         .entry-main p,
@@ -250,7 +256,7 @@ class WorkEntry extends HTMLElement {
             <p>${data.position || ''}</p>
           </div>
           <div class="entry-info">
-            <h3>${data.location || ''}</h3>
+            ${data.location ? `<h3>${data.location}</h3>` : ''}
             <p>${dateRange}</p>
           </div>
         </div>
