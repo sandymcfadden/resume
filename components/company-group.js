@@ -57,6 +57,9 @@ class CompanyGroup extends HTMLElement {
     const endDate = data.overallEndDate || data.positions[0]?.endDate;
     const dateRange = formatDateRange(startDate, endDate);
 
+    // Get company location from the most recent position (first in array)
+    const location = data.location || data.positions[0]?.location;
+
     this.shadowRoot.innerHTML = `
       <style>
         :host {
@@ -125,11 +128,21 @@ class CompanyGroup extends HTMLElement {
           margin: var(--spacing-xs) 0 0 0;
         }
 
+        .company-info {
+          text-align: right;
+          flex-shrink: 0;
+        }
+
+        .company-location {
+          font-size: var(--font-size-base);
+          color: var(--color-text);
+          margin: 0 0 var(--spacing-xs) 0;
+        }
+
         .company-dates {
           font-size: var(--font-size-base);
           color: var(--color-text);
-          text-align: right;
-          flex-shrink: 0;
+          margin: 0;
         }
 
         .positions {
@@ -249,6 +262,11 @@ class CompanyGroup extends HTMLElement {
             gap: var(--spacing-xs);
           }
 
+          .company-info {
+            text-align: left;
+          }
+
+          .company-location,
           .company-dates,
           .position-dates {
             text-align: left;
@@ -290,7 +308,10 @@ class CompanyGroup extends HTMLElement {
             <h3 class="company-name">${data.company}</h3>
             ${data.url ? `<p class="company-url"><a href="${data.url}">${data.url}</a></p>` : ''}
           </div>
-          <p class="company-dates">${dateRange}</p>
+          <div class="company-info">
+            ${location ? `<p class="company-location">${location}</p>` : ''}
+            <p class="company-dates">${dateRange}</p>
+          </div>
         </div>
       </div>
 
