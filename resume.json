@@ -7,7 +7,7 @@
     "email": "sandymc@gmail.com",
     "phone": "(902) 599-1024",
     "url": "https://sandym.ca",
-    "summary": "A senior software developer and technical support engineer with extensive experience building scalable applications and troubleshooting complex systems. Recognized for quickly diagnosing and resolving technical issues, creating comprehensive documentation, and building internal tools that improve workflows. Combines deep technical knowledge with strong communication skills, systematic problem-solving, and a collaborative approach. Passionate about helping customers succeed while mentoring teams and partnering effectively across engineering and product departments.",
+    "summary": "Senior Technical Support Engineer + Software Engineer | Full Stack (Frontend Focus) | 10+ years | Remote-first | Unique background combining technical support, leadership, and software engineering. Provided 10+ years technical support across internet connectivity, domains, WordPress, billing, and API integrations. Progressed from front-line support to team leadership to operations developer building internal tools. Created training programs, mentored teams, participated in hiring. 5+ years Building production applications for global user bases. Led Day One web client from prototype to 40K+ MAU. Built internal support tools that improved team efficiency. Strong technical skills (React, TypeScript, Node.js, Python, PHP) combined with exceptional communication and problem-solving abilities. Serves as effective bridge between customers and engineering teams.",
     "location": {
       "city": "Kentville",
       "countryCode": "CA",
@@ -18,7 +18,7 @@
   "work": [
     {
       "name": "Automattic",
-      "position": "Support Operations Developer",
+      "position": "Full Stack Engineer - Support Operations",
       "url": "https://automattic.com",
       "startDate": "2024-12-01",
       "endDate": "2025-04-01",
@@ -39,7 +39,7 @@
     },
     {
       "name": "Automattic",
-      "position": "Software Engineer - Day One",
+      "position": "Frontend Leaning Full Stack Engineer - Day One",
       "url": "https://automattic.com",
       "productUrl": "https://dayoneapp.com",
       "startDate": "2021-10-01",
@@ -60,7 +60,7 @@
     },
     {
       "name": "Automattic",
-      "position": "Software Engineer - Simplenote",
+      "position": "Frontend Leaning Full Stack Engineer - Simplenote",
       "url": "https://automattic.com",
       "productUrl": "https://simplenote.com",
       "startDate": "2021-01-01",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Automattic",
-      "position": "Happiness Engineer (Technical Support Engineer / Lead)",
+      "position": "Technical Support Engineer / Support Lead (Happiness Engineer)",
       "url": "https://automattic.com",
       "startDate": "2014-12-01",
       "endDate": "2021-01-01",
@@ -115,7 +115,7 @@
         "Created documentation and training materials for library technology systems"
       ],
       "roleRelevance": {
-        "software": "secondary",
+        "software": "hidden",
         "support": "primary"
       }
     },
@@ -356,22 +356,22 @@
   ],
   "roleProfiles": {
     "software": {
-      "label": "Senior Software Developer",
-      "summary": "A seasoned software developer with extensive experience building elegant, scalable solutions and user-first applications. Recognized for quickly adopting new technologies, navigating complex systems, and delivering high-quality code. Combines deep technical expertise with strong collaboration skills, mentoring capabilities, and a focus on UX optimization. Passionate about creating exceptional user experiences while fostering cross-departmental partnerships and team development.",
+      "label": "Frontend Leaning Full Stack Engineer",
+      "summary": "Full Stack Engineer (Frontend Focus) | React + TypeScript + Node.js | Remote-first<br>5+ years Building production applications for global user bases. Led Day One web client from prototype to 40K+ MAU. Built internal support tools that improved team efficiency. Combines technical depth with customer empathy from years in technical support. Ships quality code quickly, mentors junior engineers, translates complex requirements into elegant solutions.",
       "meta": {
         "description": "A senior software developer with deep experience building scalable applications and mentoring teams across product development."
       }
     },
     "support": {
       "label": "Technical Support Engineer",
-      "summary": "A senior technical support engineer with extensive experience troubleshooting complex systems, supporting APIs, and providing exceptional customer service to global user bases. Recognized for quickly diagnosing and resolving technical issues, creating comprehensive documentation, and building internal tools that improve support workflows. Combines deep technical knowledge with strong communication skills, systematic problem-solving, and a collaborative approach. Passionate about helping customers succeed while mentoring support teams and partnering effectively across engineering and product departments.",
+      "summary": "Senior Technical Support Engineer | Team Leadership + Operations + API Support | Remote-first<br>10+ years technical support across internet connectivity, domains (DNS, email, hosting), WordPress, billing, and API integrations. Progressed from front-line support to team leadership to operations developer. Troubleshot complex technical issues including API integrations, browser errors, and system configurations. Built internal support tools including unified Zendesk triaging system. Created training programs and documentation. Mentored support teams, participated in hiring, and served as liaison between customers and engineering. Combines technical breadth with strong problem-solving and communication skills.",
       "meta": {
         "description": "A senior technical support engineer with deep experience troubleshooting complex systems, supporting APIs, and providing exceptional customer service across global user bases."
       }
     },
     "all": {
-      "label": "Senior Software Developer / Technical Support Engineer",
-      "summary": "A senior software developer and technical support engineer with extensive experience building scalable applications and troubleshooting complex systems. Recognized for quickly diagnosing and resolving technical issues, creating comprehensive documentation, and building internal tools that improve workflows. Combines deep technical knowledge with strong communication skills, systematic problem-solving, and a collaborative approach. Passionate about helping customers succeed while mentoring teams and partnering effectively across engineering and product departments.",
+      "label": "Technical Support Engineer / Frontend Leaning Full Stack Engineer",
+      "summary": "Senior Technical Support Engineer + Software Engineer | Full Stack (Frontend Focus) | 10+ years | Remote-first<br>Unique background combining technical support, leadership, and software engineering. Provided 10+ years technical support across internet connectivity, domains, WordPress, billing, and API integrations. Progressed from front-line support to team leadership to operations developer building internal tools. Created training programs, mentored teams, participated in hiring. 5+ years Building production applications for global user bases. Led Day One web client from prototype to 40K+ MAU. Built internal support tools that improved team efficiency. Strong technical skills (React, TypeScript, Node.js, Python, PHP) combined with exceptional communication and problem-solving abilities. Serves as effective bridge between customers and engineering teams.",
       "meta": {
         "description": "A versatile professional combining software development expertise with deep technical support experience."
       }
