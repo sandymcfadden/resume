@@ -7,7 +7,7 @@
     "email": "sandymc@gmail.com",
     "phone": "(902) 599-1024",
     "url": "https://sandym.ca",
-    "summary": "Senior Technical Support Engineer + Software Engineer | Full Stack (Frontend Focus) | 10+ years | Remote-first | Unique background combining technical support, leadership, and software engineering. Provided 10+ years technical support across internet connectivity, domains, WordPress, billing, and API integrations. Progressed from front-line support to team leadership to operations developer building internal tools. Created training programs, mentored teams, participated in hiring. 5+ years Building production applications for global user bases. Led Day One web client from prototype to 40K+ MAU. Built internal support tools that improved team efficiency. Strong technical skills (React, TypeScript, Node.js, Python, PHP) combined with exceptional communication and problem-solving abilities. Serves as effective bridge between customers and engineering teams.",
+    "summary": "Senior Technical Support Engineer + Software Engineer | Full Stack (Frontend Focus) | 10+ years | Remote-first | Unique background combining technical support, leadership, and software engineering. Currently providing enterprise-level support at n8n, an open workflow orchestration platform. Provided 10+ years technical support across internet connectivity, domains, WordPress, billing, and API integrations. Progressed from front-line support to team leadership to operations developer building internal tools. Created training programs, mentored teams, participated in hiring. 5+ years building production applications for global user bases. Led Day One web client from prototype to 40K+ MAU. Built internal support tools that improved team efficiency. Strong technical skills (React, TypeScript, Node.js, Python, PHP) combined with exceptional communication and problem-solving abilities. Serves as effective bridge between customers and engineering teams.",
     "location": {
       "city": "Kentville",
       "countryCode": "CA",
@@ -16,6 +16,24 @@
     "profiles": []
   },
   "work": [
+    {
+      "name": "n8n",
+      "position": "Senior Technical Support Engineer",
+      "url": "https://n8n.io",
+      "startDate": "2026-03-01",
+      "location": "Remote",
+      "summary": "Providing enterprise-level technical support for customers hosting, configuring, and using the n8n workflow orchestration platform.",
+      "highlights": [
+        "Diagnose and resolve complex technical issues across n8n workflows, integrations, webhooks, and authentication flows",
+        "Support enterprise customers with self-hosted and cloud deployments including Docker and containerized environments",
+        "Collaborate with Engineering and Product teams to escalate, reproduce, and resolve product issues",
+        "Create and maintain documentation, troubleshooting guides, and knowledge base articles",
+        "Identify recurring issues and propose improvements to product reliability and user experience"
+      ],
+      "roleRelevance": {
+        "support": "primary"
+      }
+    },
     {
       "name": "Automattic",
       "position": "Full Stack Engineer - Support Operations",
@@ -364,14 +382,14 @@
     },
     "support": {
       "label": "Technical Support Engineer",
-      "summary": "Senior Technical Support Engineer | Team Leadership + Operations + API Support | Remote-first<br>10+ years technical support across internet connectivity, domains (DNS, email, hosting), WordPress, billing, and API integrations. Progressed from front-line support to team leadership to operations developer. Troubleshot complex technical issues including API integrations, browser errors, and system configurations. Built internal support tools including unified Zendesk triaging system. Created training programs and documentation. Mentored support teams, participated in hiring, and served as liaison between customers and engineering. Combines technical breadth with strong problem-solving and communication skills.",
+      "summary": "Senior Technical Support Engineer | Team Leadership + Operations + API Support | Remote-first<br>Currently providing enterprise-level technical support at n8n, an open workflow orchestration platform. 10+ years technical support across internet connectivity, domains (DNS, email, hosting), WordPress, billing, and API integrations. Progressed from front-line support to team leadership to operations developer. Troubleshot complex technical issues including API integrations, browser errors, and system configurations. Built internal support tools including unified Zendesk triaging system. Created training programs and documentation. Mentored support teams, participated in hiring, and served as liaison between customers and engineering. Combines technical breadth with strong problem-solving and communication skills.",
       "meta": {
         "description": "A senior technical support engineer with deep experience troubleshooting complex systems, supporting APIs, and providing exceptional customer service across global user bases."
       }
     },
     "all": {
       "label": "Technical Support Engineer / Frontend Leaning Full Stack Engineer",
-      "summary": "Senior Technical Support Engineer + Software Engineer | Full Stack (Frontend Focus) | 10+ years | Remote-first<br>Unique background combining technical support, leadership, and software engineering. Provided 10+ years technical support across internet connectivity, domains, WordPress, billing, and API integrations. Progressed from front-line support to team leadership to operations developer building internal tools. Created training programs, mentored teams, participated in hiring. 5+ years Building production applications for global user bases. Led Day One web client from prototype to 40K+ MAU. Built internal support tools that improved team efficiency. Strong technical skills (React, TypeScript, Node.js, Python, PHP) combined with exceptional communication and problem-solving abilities. Serves as effective bridge between customers and engineering teams.",
+      "summary": "Senior Technical Support Engineer + Software Engineer | Full Stack (Frontend Focus) | 10+ years | Remote-first<br>Unique background combining technical support, leadership, and software engineering. Currently providing enterprise-level support at n8n, an open workflow orchestration platform. Provided 10+ years technical support across internet connectivity, domains, WordPress, billing, and API integrations. Progressed from front-line support to team leadership to operations developer building internal tools. Created training programs, mentored teams, participated in hiring. 5+ years building production applications for global user bases. Led Day One web client from prototype to 40K+ MAU. Built internal support tools that improved team efficiency. Strong technical skills (React, TypeScript, Node.js, Python, PHP) combined with exceptional communication and problem-solving abilities. Serves as effective bridge between customers and engineering teams.",
       "meta": {
         "description": "A versatile professional combining software development expertise with deep technical support experience."
       }
@@ -422,6 +440,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/sandymcfadden/resume/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-11-25"
+    "lastModified": "2026-04-28"
   }
 }
